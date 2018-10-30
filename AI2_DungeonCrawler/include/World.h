@@ -1,11 +1,58 @@
 #pragma once
 #include "Prerequisites.h"
+#include "UnitType.h"
+#include "Unit.h"
+#include <vector>
 
 class World
 {
-public:
+ public:
   World();
   ~World();
-  void createUnit(int x, int y, int idType, int idPlayer);
+  
+  /*
+  * @brief: Funcion para crear una unidad en el juego
+  * @param: la posicion en el mundo enfuncionde X y Y,
+  * su ID de tipo, y el ID del personaje al que pertenece
+  */
+
+  void
+  createUnit(float x, float y, int idType, int idPlayer);
+  
+  /*
+  * @brief: Funcion para crear un tipo de unidad en el juego
+  * @param: el id de tipo.
+  */
+  void
+  createUnitType(int id_type);
+
+  /*
+  * @brief: Funcion para crear un tipo de enemigo en el juego
+  * @param: el id de tipo.
+  */
+  void
+  createEnemyType(int id_type);
+
+  /*
+  * @brief: Funcion para crear un jugador/una cuenta 
+  * @param: el id del jugador.
+  */
+  void 
+  createPlayer(int id_Player);
+  
+  /*
+  * @brief: Funcion para registrar una funcion LUA
+  * @param: La funcion LUA.
+  */
+  void 
+  registerLuaFunction(/*Function*/);
+  
+  UnitType* 
+  GetUnitType(int id_unitType);
+
+  Unit*
+  GetUnit(int id_unit);
+
+
 };
 

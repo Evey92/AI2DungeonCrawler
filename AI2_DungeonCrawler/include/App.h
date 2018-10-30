@@ -33,4 +33,5 @@ public:
   GameplayState* m_gameplayState;
   GraphicsState* m_graphicState;
   SoundState* m_soundStae;
+  World gameWorld;
 };

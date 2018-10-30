@@ -3,6 +3,10 @@
 #include "App.h"
 #include <iostream>
 
+/*
+* @brief: OnEnter function for LogoState. 
+* Initializes the logo.
+*/
 void
 LogoState::OnEnter() {
 
@@ -14,10 +18,15 @@ LogoState::OnEnter() {
   m_pApp->m_windowManager.SetRectangle(sf::Vector2f(800, 600),
     sf::Vector2f(300, 300),
     sf::Color::Black);
-  m_pApp->m_windowManager.setSpriteTexture(m_pApp->m_windowManager.m_textureLogo);
+  m_pApp->m_windowManager.setSpriteTexture(m_pApp->m_windowManager.
+                                           m_textureLogo);
 
 }
 
+/*
+* @brief: OnUpdate function fo LogoState.
+* Renders the logo and waits for input from the user to get to the next state.
+*/
 void
 LogoState::OnUpdate() {
 
@@ -30,12 +39,20 @@ LogoState::OnUpdate() {
   }
 }
 
+/*
+* @brief: OnExit function for LogoState.
+* Pops the state from the StateStack.
+*/
 void
 LogoState::OnExit() {
   std::cout << "I'm getting out of the Logo" << std::endl;
   m_pApp->m_stateStack.pop();
 }
 
+/*
+* @brief: OnEnter function for MenuState.
+* Initializes text messages, and sets the window rectangles.
+*/
 void
 MenuState::OnEnter() {
   std::cout << "I'm at the Menu" << std::endl;

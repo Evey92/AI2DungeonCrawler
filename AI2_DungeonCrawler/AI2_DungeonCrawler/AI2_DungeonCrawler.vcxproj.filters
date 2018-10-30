@@ -49,6 +49,8 @@
     <ClInclude Include="..\include\ItemType.h">
       <Filter>Source Files\include</Filter>
     </ClInclude>
+    <ClInclude Include="enemyType.h" />
+    <ClInclude Include="MyButton.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\AI2_DungeonCrawler.cpp">
@@ -86,6 +88,12 @@
     </ClCompile>
     <ClCompile Include="..\src\ItemType.cpp">
       <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyType.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyButton.cpp">
+      <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -12,13 +12,16 @@ public:
   UnitType();
   ~UnitType();
   
-  int id;
-  int iLevel;
+  int m_id;
+  int m_Level;
   std::string sName;
-  float iHP;
-  float iSTR;
-  float iDEF;
-  float iSPD;
+  float m_baseHP;
+  float m_HPModifier;
+  float m_STR;
+  float m_DEX;
+  float m_INT;
+  float m_DEF;
+  float m_abilityMod;
   float iEXP;
   std::string spriteFile;
 
