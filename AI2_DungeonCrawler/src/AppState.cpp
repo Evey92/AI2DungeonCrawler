@@ -55,6 +55,7 @@ LogoState::OnExit() {
 */
 void
 MenuState::OnEnter() {
+  
   std::cout << "I'm at the Menu" << std::endl;
   std::string message = ("Welcome to Galahad's Holy Grail!\n\n\n\n\n\t\t\t\t\t\tMain Menu\n\n\nPresiona Enter para jugar. \nPresiona O para opciones.");
   m_pApp->m_windowManager.SetRectangle(sf::Vector2f(1200, 800),
