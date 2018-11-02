@@ -34,6 +34,10 @@ public:
   std::vector<Item*> m_inventory;
   Unit* m_pEnemy;
   Weapon* m_activeWeapon;
+<<<<<<< HEAD
   std::vector<Weapon*> weaponList;
+=======
+  std::vector<Weapon*> weaponList
+>>>>>>> 1428105682f9e2f76708737d5bae02c22b0286f5
 };
 
