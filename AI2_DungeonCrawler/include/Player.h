@@ -5,12 +5,12 @@
 class Player
 {
 public:
-  Player();
+  Player() = default;
   ~Player();
   
   int m_id;
   std::string name;
-  std::string iconFileName;
+  sf::Sprite iconFileName;
   sf::Color color;
   int money;
 
