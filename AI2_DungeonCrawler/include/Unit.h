@@ -17,6 +17,7 @@ public:
   void setEnemy(Unit* pEnemy);
   void attack();
 
+  int m_id;
   int m_idType;
   int m_idPlayer;
   int m_Level;
