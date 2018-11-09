@@ -6,7 +6,7 @@ class Player
 {
 public:
   Player() = default;
-  ~Player();
+  ~Player() {};
   
   int m_id;
   std::string name;

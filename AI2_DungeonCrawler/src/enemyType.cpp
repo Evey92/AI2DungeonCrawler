@@ -1,12 +1,3 @@
-#include "enemyType.h"
+#include "Prerequisites.h"
+#include "EnemyType.h"
 
-
-
-enemyType::enemyType()
-{
-}
-
-
-enemyType::~enemyType()
-{
-}

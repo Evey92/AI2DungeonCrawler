@@ -1,22 +1,33 @@
 #pragma once
-#include "AppState.h"
 #include "Prerequisites.h"
+#include "AppState.h"
 #include "Window.h"
+
+class AppState;
+class LogoState;
+class MenuState;
+class PlayState;
+class PauseState;
+class GameOverState;
+class HelpState;
+class OptionsState;
+class GameplayState;
+class GraphicsState;
+class SoundState;
+
 
 class App
 {
-public:
+ public:
 
   App();
   ~App() {};
 
   void
-    Update();
+  Update();
 
   void
-    setState(AppState* pNewState);
-
-public:
+  setState(AppState* pNewState);
 
   bool m_isPaused = false;
   Window m_windowManager;

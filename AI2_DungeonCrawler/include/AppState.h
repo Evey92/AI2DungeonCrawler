@@ -12,7 +12,7 @@ class App;
 class AppState
 {
 
-public:
+ public:
   AppState() : m_pApp(nullptr) {}
 
   virtual
@@ -24,14 +24,13 @@ public:
   virtual void
     OnExit() = 0;
 
-public:
   App* m_pApp;
 };
 
 class LogoState : public AppState
 {
 
-public:
+ public:
 
   void
     OnEnter();
@@ -44,7 +43,7 @@ public:
 class MenuState : public AppState
 {
 
-public:
+ public:
 
   void
     OnEnter();
@@ -57,7 +56,7 @@ public:
 class PlayState : public AppState
 {
 
-public:
+ public:
 
   void
     OnEnter();
@@ -70,7 +69,7 @@ public:
 
 class PauseState : public AppState {
 
-public:
+ public:
 
   void
     OnEnter();
@@ -83,7 +82,7 @@ public:
 
 class GameOverState : public AppState {
 
-public:
+ public:
   void
     OnEnter();
   void

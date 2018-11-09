@@ -5,18 +5,29 @@
 #include "rapidjson/document.h"
 #include "rapidjson/filereadstream.h"
 #include <string>
+#include <sstream>
 
 using namespace rapidjson;
 
 class UnitType : public GameObject
 {
 public:
-  UnitType();
-  ~UnitType();
+  UnitType() = default;
+  ~UnitType() {};
 
   void Load(int idType);
-  UnitType* callback();
+  /*static UnitType* callback() {
+    int i;
+    fprintf(stderr, "%s: ", (const char*)data);
 
+    for (i = 0; i < argc; i++) {
+      printf("%s = %s\n", azColName[i], argv[i] ? argv[i] : "NULL");
+    }
+
+    printf("\n");
+    return 0;
+  }*/
+  
   int m_id;
   float m_baseHP;
   float m_HPmod;
@@ -25,6 +36,7 @@ public:
   float m_baseINT;
   float m_baseDEF;
   std::string m_Name;
-  std::string m_spriteFile;
+  //m_spriteFile;
 };
+
 

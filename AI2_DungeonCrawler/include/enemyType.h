@@ -1,8 +1,14 @@
 #pragma once
-class enemyType
-{
-public:
-  enemyType();
-  ~enemyType();
-};
+#include "Prerequisites.h"
+#include "UnitType.h"
 
+  class EnemyType : public UnitType
+  {
+  public:
+    EnemyType() = default;
+    ~EnemyType() {};
+
+    float m_Reee;
+
+
+  };

@@ -23,6 +23,7 @@
     <ClCompile Include="..\src\App.cpp" />
     <ClCompile Include="..\src\AppState.cpp" />
     <ClCompile Include="..\src\DamageType.cpp" />
+    <ClCompile Include="..\src\EnemyType.cpp" />
     <ClCompile Include="..\src\GameObject.cpp" />
     <ClCompile Include="..\src\Item.cpp" />
     <ClCompile Include="..\src\ItemType.cpp" />
@@ -34,12 +35,12 @@
     <ClCompile Include="..\src\Weapon.cpp" />
     <ClCompile Include="..\src\Window.cpp" />
     <ClCompile Include="..\src\World.cpp" />
-    <ClCompile Include="EnemyType.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\include\App.h" />
     <ClInclude Include="..\include\AppState.h" />
     <ClInclude Include="..\include\DamageType.h" />
+    <ClInclude Include="..\include\EnemyType.h" />
     <ClInclude Include="..\include\GameObject.h" />
     <ClInclude Include="..\include\Item.h" />
     <ClInclude Include="..\include\ItemType.h" />
@@ -52,7 +53,8 @@
     <ClInclude Include="..\include\Weapon.h" />
     <ClInclude Include="..\include\Window.h" />
     <ClInclude Include="..\include\World.h" />
-    <ClInclude Include="EnemyType.h" />
+    <ClInclude Include="Animation.h" />
+    <ClInclude Include="AnimRect.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>

@@ -1,4 +1,3 @@
-#include "pch.h"
 #include "AppState.h"
 #include "App.h"
 #include <iostream>
