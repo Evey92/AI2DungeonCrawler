@@ -58,13 +58,16 @@
     <ClInclude Include="..\include\Weapon.h">
       <Filter>Source Files\include</Filter>
     </ClInclude>
-    <ClInclude Include="AnimRect.h">
-      <Filter>Source Files\include</Filter>
-    </ClInclude>
-    <ClInclude Include="Animation.h">
-      <Filter>Source Files\include</Filter>
-    </ClInclude>
     <ClInclude Include="..\include\EnemyType.h">
+      <Filter>Source Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Hash.h">
+      <Filter>Source Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Animation.h">
+      <Filter>Source Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\AnimRect.h">
       <Filter>Source Files\include</Filter>
     </ClInclude>
   </ItemGroup>
@@ -115,6 +118,9 @@
       <Filter>Source Files\src</Filter>
     </ClCompile>
     <ClCompile Include="..\src\EnemyType.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource.cpp">
       <Filter>Source Files\src</Filter>
     </ClCompile>
   </ItemGroup>
