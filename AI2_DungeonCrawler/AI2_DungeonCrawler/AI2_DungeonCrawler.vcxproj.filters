@@ -67,6 +67,7 @@
     <ClInclude Include="..\include\Vector3.h">
       <Filter>Source Files\include</Filter>
     </ClInclude>
+<<<<<<< HEAD
     <ClInclude Include="..\include\Weapon.h">
       <Filter>Source Files\include</Filter>
     </ClInclude>
@@ -74,6 +75,18 @@
       <Filter>Source Files\include</Filter>
     </ClInclude>
     <ClInclude Include="..\include\World.h">
+=======
+    <ClInclude Include="..\include\EnemyType.h">
+      <Filter>Source Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="Hash.h">
+      <Filter>Source Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Animation.h">
+      <Filter>Source Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\AnimRect.h">
+>>>>>>> 39f64b39feb499a1848174e9fea26efd89a2bf1e
       <Filter>Source Files\include</Filter>
     </ClInclude>
   </ItemGroup>
@@ -133,6 +146,9 @@
       <Filter>Source Files\src</Filter>
     </ClCompile>
     <ClCompile Include="..\src\World.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource.cpp">
       <Filter>Source Files\src</Filter>
     </ClCompile>
   </ItemGroup>

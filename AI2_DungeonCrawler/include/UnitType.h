@@ -28,14 +28,19 @@ public:
     return 0;
   }*/
   
+  void LoadImg();
+  void DestroyImg();
+
+
   int m_id;
+  std::string m_Name;
+  int m_level;
   float m_baseHP;
   float m_HPmod;
   float m_baseSTR;
   float m_baseDEX;
   float m_baseINT;
   float m_baseDEF;
-  std::string m_Name;
   //m_spriteFile;
 };
 

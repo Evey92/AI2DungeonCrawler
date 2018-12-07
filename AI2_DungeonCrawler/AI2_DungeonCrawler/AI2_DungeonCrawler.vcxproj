@@ -19,6 +19,28 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
+=======
+    <ClCompile Include="..\src\AI2_DungeonCrawler.cpp" />
+    <ClCompile Include="..\src\App.cpp" />
+    <ClCompile Include="..\src\AppState.cpp" />
+    <ClCompile Include="..\src\DamageType.cpp" />
+    <ClCompile Include="..\src\EnemyType.cpp" />
+    <ClCompile Include="..\src\GameObject.cpp" />
+    <ClCompile Include="..\src\Item.cpp" />
+    <ClCompile Include="..\src\ItemType.cpp" />
+    <ClCompile Include="..\src\MyButton.cpp" />
+    <ClCompile Include="..\src\pch.cpp" />
+    <ClCompile Include="..\src\Player.cpp" />
+    <ClCompile Include="..\src\Unit.cpp" />
+    <ClCompile Include="..\src\UnitType.cpp" />
+    <ClCompile Include="..\src\Weapon.cpp" />
+    <ClCompile Include="..\src\Window.cpp" />
+    <ClCompile Include="..\src\World.cpp" />
+    <ClCompile Include="Resource.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+>>>>>>> 39f64b39feb499a1848174e9fea26efd89a2bf1e
     <ClInclude Include="..\include\Animation.h" />
     <ClInclude Include="..\include\AnimRect.h" />
     <ClInclude Include="..\include\App.h" />
@@ -40,6 +62,7 @@
     <ClInclude Include="..\include\Weapon.h" />
     <ClInclude Include="..\include\Window.h" />
     <ClInclude Include="..\include\World.h" />
+<<<<<<< HEAD
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\AI2_DungeonCrawler.cpp" />
@@ -61,6 +84,9 @@
     <ClCompile Include="..\src\Weapon.cpp" />
     <ClCompile Include="..\src\Window.cpp" />
     <ClCompile Include="..\src\World.cpp" />
+=======
+    <ClInclude Include="Hash.h" />
+>>>>>>> 39f64b39feb499a1848174e9fea26efd89a2bf1e
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
