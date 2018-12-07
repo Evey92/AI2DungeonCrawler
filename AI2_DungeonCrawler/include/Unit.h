@@ -10,7 +10,7 @@ class Unit : public GameObject
 {
 public:
   Unit() = default;
-  Unit(Unit* unit);
+  Unit(const Unit& unit);
   ~Unit();
 
   void doDamage(Weapon* weapon);

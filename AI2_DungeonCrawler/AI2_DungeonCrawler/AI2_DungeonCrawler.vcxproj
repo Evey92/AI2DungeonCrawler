@@ -19,28 +19,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\src\AI2_DungeonCrawler.cpp" />
-    <ClCompile Include="..\src\App.cpp" />
-    <ClCompile Include="..\src\AppState.cpp" />
-    <ClCompile Include="..\src\DamageType.cpp" />
-    <ClCompile Include="..\src\EnemyType.cpp" />
-    <ClCompile Include="..\src\GameObject.cpp" />
-    <ClCompile Include="..\src\Item.cpp" />
-    <ClCompile Include="..\src\ItemType.cpp" />
-    <ClCompile Include="..\src\MyButton.cpp" />
-    <ClCompile Include="..\src\pch.cpp" />
-    <ClCompile Include="..\src\Player.cpp" />
-    <ClCompile Include="..\src\Unit.cpp" />
-    <ClCompile Include="..\src\UnitType.cpp" />
-    <ClCompile Include="..\src\Weapon.cpp" />
-    <ClCompile Include="..\src\Window.cpp" />
-    <ClCompile Include="..\src\World.cpp" />
-  </ItemGroup>
-  <ItemGroup>
+    <ClInclude Include="..\include\Animation.h" />
+    <ClInclude Include="..\include\AnimRect.h" />
     <ClInclude Include="..\include\App.h" />
     <ClInclude Include="..\include\AppState.h" />
     <ClInclude Include="..\include\DamageType.h" />
-    <ClInclude Include="..\include\EnemyType.h" />
+    <ClInclude Include="..\include\enemyType.h" />
     <ClInclude Include="..\include\GameObject.h" />
     <ClInclude Include="..\include\Item.h" />
     <ClInclude Include="..\include\ItemType.h" />
@@ -48,13 +32,35 @@
     <ClInclude Include="..\include\pch.h" />
     <ClInclude Include="..\include\Player.h" />
     <ClInclude Include="..\include\Prerequisites.h" />
+    <ClInclude Include="..\include\ResourceManager.h" />
     <ClInclude Include="..\include\Unit.h" />
     <ClInclude Include="..\include\UnitType.h" />
+    <ClInclude Include="..\include\Vector2.h" />
+    <ClInclude Include="..\include\Vector3.h" />
     <ClInclude Include="..\include\Weapon.h" />
     <ClInclude Include="..\include\Window.h" />
     <ClInclude Include="..\include\World.h" />
-    <ClInclude Include="Animation.h" />
-    <ClInclude Include="AnimRect.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\AI2_DungeonCrawler.cpp" />
+    <ClCompile Include="..\src\App.cpp" />
+    <ClCompile Include="..\src\AppState.cpp" />
+    <ClCompile Include="..\src\DamageType.cpp" />
+    <ClCompile Include="..\src\enemyType.cpp" />
+    <ClCompile Include="..\src\GameObject.cpp" />
+    <ClCompile Include="..\src\Item.cpp" />
+    <ClCompile Include="..\src\ItemType.cpp" />
+    <ClCompile Include="..\src\MyButton.cpp" />
+    <ClCompile Include="..\src\pch.cpp" />
+    <ClCompile Include="..\src\Player.cpp" />
+    <ClCompile Include="..\src\ResourceManager.cpp" />
+    <ClCompile Include="..\src\Unit.cpp" />
+    <ClCompile Include="..\src\UnitType.cpp" />
+    <ClCompile Include="..\src\Vector2.cpp" />
+    <ClCompile Include="..\src\Vector3.cpp" />
+    <ClCompile Include="..\src\Weapon.cpp" />
+    <ClCompile Include="..\src\Window.cpp" />
+    <ClCompile Include="..\src\World.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>

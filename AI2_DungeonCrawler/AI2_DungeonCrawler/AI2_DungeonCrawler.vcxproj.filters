@@ -13,34 +13,25 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\include\Animation.h">
+      <Filter>Source Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\AnimRect.h">
+      <Filter>Source Files\include</Filter>
+    </ClInclude>
     <ClInclude Include="..\include\App.h">
       <Filter>Source Files\include</Filter>
     </ClInclude>
     <ClInclude Include="..\include\AppState.h">
       <Filter>Source Files\include</Filter>
     </ClInclude>
+    <ClInclude Include="..\include\DamageType.h">
+      <Filter>Source Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\enemyType.h">
+      <Filter>Source Files\include</Filter>
+    </ClInclude>
     <ClInclude Include="..\include\GameObject.h">
-      <Filter>Source Files\include</Filter>
-    </ClInclude>
-    <ClInclude Include="..\include\pch.h">
-      <Filter>Source Files\include</Filter>
-    </ClInclude>
-    <ClInclude Include="..\include\Player.h">
-      <Filter>Source Files\include</Filter>
-    </ClInclude>
-    <ClInclude Include="..\include\Prerequisites.h">
-      <Filter>Source Files\include</Filter>
-    </ClInclude>
-    <ClInclude Include="..\include\Unit.h">
-      <Filter>Source Files\include</Filter>
-    </ClInclude>
-    <ClInclude Include="..\include\UnitType.h">
-      <Filter>Source Files\include</Filter>
-    </ClInclude>
-    <ClInclude Include="..\include\Window.h">
-      <Filter>Source Files\include</Filter>
-    </ClInclude>
-    <ClInclude Include="..\include\World.h">
       <Filter>Source Files\include</Filter>
     </ClInclude>
     <ClInclude Include="..\include\Item.h">
@@ -52,19 +43,37 @@
     <ClInclude Include="..\include\MyButton.h">
       <Filter>Source Files\include</Filter>
     </ClInclude>
-    <ClInclude Include="..\include\DamageType.h">
+    <ClInclude Include="..\include\pch.h">
+      <Filter>Source Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Player.h">
+      <Filter>Source Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Prerequisites.h">
+      <Filter>Source Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\ResourceManager.h">
+      <Filter>Source Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Unit.h">
+      <Filter>Source Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\UnitType.h">
+      <Filter>Source Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Vector2.h">
+      <Filter>Source Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\Vector3.h">
       <Filter>Source Files\include</Filter>
     </ClInclude>
     <ClInclude Include="..\include\Weapon.h">
       <Filter>Source Files\include</Filter>
     </ClInclude>
-    <ClInclude Include="AnimRect.h">
+    <ClInclude Include="..\include\Window.h">
       <Filter>Source Files\include</Filter>
     </ClInclude>
-    <ClInclude Include="Animation.h">
-      <Filter>Source Files\include</Filter>
-    </ClInclude>
-    <ClInclude Include="..\include\EnemyType.h">
+    <ClInclude Include="..\include\World.h">
       <Filter>Source Files\include</Filter>
     </ClInclude>
   </ItemGroup>
@@ -78,25 +87,13 @@
     <ClCompile Include="..\src\AppState.cpp">
       <Filter>Source Files\src</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\DamageType.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\enemyType.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
     <ClCompile Include="..\src\GameObject.cpp">
-      <Filter>Source Files\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\pch.cpp">
-      <Filter>Source Files\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\Player.cpp">
-      <Filter>Source Files\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\Unit.cpp">
-      <Filter>Source Files\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\UnitType.cpp">
-      <Filter>Source Files\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\Window.cpp">
-      <Filter>Source Files\src</Filter>
-    </ClCompile>
-    <ClCompile Include="..\src\World.cpp">
       <Filter>Source Files\src</Filter>
     </ClCompile>
     <ClCompile Include="..\src\Item.cpp">
@@ -108,13 +105,34 @@
     <ClCompile Include="..\src\MyButton.cpp">
       <Filter>Source Files\src</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\DamageType.cpp">
+    <ClCompile Include="..\src\pch.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Player.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ResourceManager.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Unit.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\UnitType.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Vector2.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Vector3.cpp">
       <Filter>Source Files\src</Filter>
     </ClCompile>
     <ClCompile Include="..\src\Weapon.cpp">
       <Filter>Source Files\src</Filter>
     </ClCompile>
-    <ClCompile Include="..\src\EnemyType.cpp">
+    <ClCompile Include="..\src\Window.cpp">
+      <Filter>Source Files\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\World.cpp">
       <Filter>Source Files\src</Filter>
     </ClCompile>
   </ItemGroup>
